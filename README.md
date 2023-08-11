@@ -1,2 +1,2 @@
 # Portfolio
-Overview of my academic-progress and activities
+Overview of my academic progress and activities
