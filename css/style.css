@@ -594,12 +594,13 @@ select {
   margin: 0;
 }
 
-/* Service Section started here */
 
-.service .container {
+/* project Section started here */
+
+.project .container {
   padding-bottom: 40px;
 }
-.service .service-item {
+.project .project-item {
   -ms-flex: 0 0 33.33%;
   flex: 0 0 33.33%;
   max-width: 33.33%;
@@ -607,7 +608,7 @@ select {
   display: -ms-flexbox;
   display: flex;
 }
-.service .service-item .service-item-inner {
+.project .project-item .project-item-inner {
   background-color: #fdf9ff;
   border: 1px solid #d4d4e3;
   border-radius: 10px;
@@ -617,11 +618,11 @@ select {
   transition: all 0.3s ease;
   width: 100%;
 }
-.service .service-item .service-item-inner:hover {
+.project .project-item .project-item-inner:hover {
   -webkit-box-shadow: 0 0 20px rgba(48, 48, 77, 0.15);
   box-shadow: 0 0 20px rgba(48, 48, 77, 0.15);
 }
-.service .service-item .service-item-inner .icon {
+.project .project-item .project-item-inner .icon {
   height: 60px;
   width: 60px;
   /* background-color: red; */
@@ -632,29 +633,121 @@ select {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner .icon .fa {
+.project .project-item .project-item-inner .icon .fa {
   font-size: 40px;
   line-height: 60px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner:hover .icon .fa {
+.project .project-item .project-item-inner:hover .icon .fa {
   font-size: 25px;
   color: #fff;
 }
-.service .service-item .service-item-inner h4 {
+.project .project-item .project-item-inner h4 {
   font-size: 18px;
   margin-bottom: 15px;
   color: #302e4d;
   font-weight: 700;
   text-transform: capitalize;
 }
-.service .service-item .service-item-inner p {
+.project .project-item .project-item-inner p {
   font-size: 16px;
   color: #504e70;
   line-height: 25px;
   margin: 0;
 }
+
+
+/* Education Section  */
+
+.Education .container {
+  padding-bottom: 40px;
+}
+
+.Education .Education-filter {
+  /* background-color: red; */
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.Education .Education-filter button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 10px;
+  color: #302e4d;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  padding-bottom: 2px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+.Education .Education-item {
+  /* background-color: red; */
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+.Education .Education-item.hide {
+  display: none;
+}
+.Education .Education-item.show {
+  display: block;
+  animation: showItem 0.5s ease;
+}
+
+
+/* Achivement Section  */
+
+.Achivement .container {
+  padding-bottom: 40px;
+}
+
+.Achivement .Achivement-filter {
+  /* background-color: red; */
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.Achivement .Achivement-filter button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 10px;
+  color: #302e4d;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  padding-bottom: 2px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+.Achivement .Achivement-item {
+  /* background-color: red; */
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+.Achivement .Achivement-item.hide {
+  display: none;
+}
+.Achivement .Achivement-item.show {
+  display: block;
+  animation: showItem 0.5s ease;
+}
+
+
+
+
 
 /* Portfolio Section  */
 
@@ -698,6 +791,8 @@ select {
   display: block;
   animation: showItem 0.5s ease;
 }
+
+
 @-webkit-keyframes showItem {
   0% {
     -webkit-transform: scale(0.8);
